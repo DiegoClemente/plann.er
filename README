@@ -1,10 +1,10 @@
 # 🌍 Journey Project
 
-# About the project
+## About the Project
 
-> The Journey project aims to help users organize trips for work or leisure. The user can create a trip with a name, start and end date. Within the trip, the user can plan their trip by adding activities to carry out each day.
+> The Journey project aims to help users organize trips for work or leisure. Users can create a trip with a name, start and end date. Within the trip, users can plan their trip by adding activities to carry out each day.
 
-# 🛠️ Tools
+## 🛠️ Tools
 
 - Spring Web
 - Flyway
@@ -13,18 +13,18 @@
 - JPA
 - H2 Database
 
-# 📋 Requirements
+## 📋 Requirements
 
-# Functional requirements
+### Functional Requirements
 
-1. The user registers a trip by informing the destination location, start date, end date, guests' emails and also their full name and email address.
-2. The trip creator receives an email to confirm the new trip via a link. When clicking on the link, the trip is confirmed, guests receive attendance confirmation emails and the creator is redirected to the trip page.
-3. Guests, when clicking on the presence confirmation link, are redirected to the application where they must enter their name (in addition to the email that will already be filled in) and will then be confirmed on the trip.
-4. On the event page, trip participants can add important travel links such as AirBnB reservations, places to visit, etc.
-5. Still on the event page, the creator and guests can add activities that will occur during the trip with title, date and time.
+1. Users register a trip by informing the destination location, start date, end date, guests' emails, and their full name and email address.
+2. The trip creator receives an email to confirm the new trip via a link. Upon clicking the link, the trip is confirmed, guests receive attendance confirmation emails, and the creator is redirected to the trip page.
+3. Guests, when clicking on the attendance confirmation link, are redirected to the application where they must enter their name (in addition to the pre-filled email) and are then confirmed on the trip.
+4. On the event page, trip participants can add important travel links such as Airbnb reservations, places to visit, etc.
+5. On the event page, the creator and guests can add activities that will occur during the trip with title, date, and time.
 6. New participants can be invited within the event page via email and must go through the confirmation flow like any other guest.
 
-# 🚀 How to Run the Project Locally
+## 🚀 How to Run the Project Locally
 
 1. **Clone the repository:**
    ```bash
@@ -50,6 +50,6 @@
 6. **Flyway Migrations:**
    - Flyway will automatically run the database migrations on application startup.
 
-# 📄 License
+## 📄 License
 
 This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
