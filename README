@@ -1,6 +1,4 @@
-<body>
-
-    <h1>🌍 Journey Project</h1>
+<h1>🌍 Journey Project</h1>
 
     <h2>About the Project</h2>
     <blockquote>
@@ -55,5 +53,3 @@
 
     <h2>📄 License</h2>
     <p>This project is licensed under the Apache License 2.0 - see the <a href="LICENSE">LICENSE</a> file for details.</p>
-
-</body>
