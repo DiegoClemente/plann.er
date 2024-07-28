@@ -1,1 +1,55 @@
-Hello World!
+# 🌍 Journey Project
+
+## About the project
+
+> The Journey project aims to help users organize trips for work or leisure. The user can create a trip with a name, start and end date. Within the trip, the user can plan their trip by adding activities to carry out each day.
+
+## 🛠️ Tools
+
+- Spring Web
+- Flyway
+- DevTools
+- Lombok
+- JPA
+- H2 Database
+
+## 📋 Requirements
+
+### Functional requirements
+
+1. The user registers a trip by informing the destination location, start date, end date, guests' emails and also their full name and email address.
+2. The trip creator receives an email to confirm the new trip via a link. When clicking on the link, the trip is confirmed, guests receive attendance confirmation emails and the creator is redirected to the trip page.
+3. Guests, when clicking on the presence confirmation link, are redirected to the application where they must enter their name (in addition to the email that will already be filled in) and will then be confirmed on the trip.
+4. On the event page, trip participants can add important travel links such as AirBnB reservations, places to visit, etc.
+5. Still on the event page, the creator and guests can add activities that will occur during the trip with title, date and time.
+6. New participants can be invited within the event page via email and must go through the confirmation flow like any other guest.
+
+## 🚀 How to Run the Project Locally
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
+
+2. **Set up the database:**
+   - The project uses H2 Database, which is an in-memory database. No additional setup is required.
+
+3. **Configure the application:**
+   - Ensure you have the necessary configurations in `application.properties` or `application.yml`.
+
+4. **Run the application:**
+   - You can run the application using your IDE (e.g., IntelliJ IDEA, Eclipse) or via the command line:
+     ```bash
+     ./mvnw spring-boot:run
+     ```
+
+5. **Access the application:**
+   - Once the application is running, you can access it at `http://localhost:8080`.
+
+6. **Flyway Migrations:**
+   - Flyway will automatically run the database migrations on application startup.
+
+## 📄 License
+
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
